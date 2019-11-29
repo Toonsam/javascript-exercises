@@ -179,6 +179,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
+            function sortAlphabetically(){
+                return array.sort();
+            }
 
             ////////////////////////////////////////////////////////////////////
 
@@ -193,7 +196,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function sortByLength(){
+                return array.sort((a,b) => a.length - b.length); 
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(sortByLength()).to.equal(array);
