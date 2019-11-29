@@ -327,7 +327,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function combine(...items){
+                return array.concat(...items);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(combine("b")).to.eql(["a", "b"]);
