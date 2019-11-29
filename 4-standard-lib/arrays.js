@@ -275,6 +275,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
+            function firstOccurrence(string){
+                return array.indexOf(string);
+            }
 
             ////////////////////////////////////////////////////////////////////
 
