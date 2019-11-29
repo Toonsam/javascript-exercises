@@ -35,9 +35,10 @@ describe("numbers", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
             // You will also need to do an additional check here.
-              function isNotANumber(number){
-                  return Number.isNaN(number);
-              }
+            function isNotANumber(number){
+                return typeof number !== "number" || Number.isNaN(number);
+            }
+
             ////////////////////////////////////////////////////////////////////////
 
             expect(isNotANumber(0)).to.equal(false);
