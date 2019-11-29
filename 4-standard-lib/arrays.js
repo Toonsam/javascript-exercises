@@ -239,7 +239,7 @@ describe("arrays", function() {
             // You need to do that manually first.
             // 🐛🛠 FIX THE BUG 🛠🐛
             function sortWithoutMutation() {
-                return array.sort();
+                return array.slice().sort();
             }
             ////////////////////////////////////////////////////////////////////
 
