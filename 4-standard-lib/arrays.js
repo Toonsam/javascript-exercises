@@ -353,7 +353,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function excludeNumbersBelowLimit(limit){
+                return numbers.filter((number) => number >= limit);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(excludeNumbersBelowLimit(1)).to.eql([1, 2, 3, 4, 5]);
@@ -371,7 +373,7 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+              
             ////////////////////////////////////////////////////////////////////
 
             expect(allGreaterThan(3)).to.equal(false);
